@@ -1,13 +1,13 @@
 ---
-# This playbook Installs httpd service
+# This playbook deploys a simple standalone Tomcat 7 server.
 
-- hosts: localhost
+- hosts: tomcat
   remote_user: root
   become: yes
   become_method: sudo
-  tasks:
-  - name: Install the httpd rpm
-    yum: name=httpd state=present
-  - name: start the httpd service
-    service: name=httpd state=started
+
+  roles:
+    - selinux
+    - tomcat
+    - tomcat_deploy
 
