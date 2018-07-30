@@ -1,5 +1,5 @@
 ---
-# This playbook Installs httpd.service
+# This playbook Installs httpd service
 
 - hosts: localhost
   remote_user: root
