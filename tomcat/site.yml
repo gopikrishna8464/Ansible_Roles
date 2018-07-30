@@ -1,5 +1,5 @@
 ---
-# This playbook deploys a simple standalone Tomcat 7 server.
+# This playbook Installs httpd.service
 
 - hosts: localhost
   remote_user: root
