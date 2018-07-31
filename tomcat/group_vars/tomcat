@@ -5,5 +5,5 @@
 
 # This will configure a default manager-gui user:
 
-admin_username: admin
-admin_password: adminsecret
+username: tomcat
+password: tomcat
