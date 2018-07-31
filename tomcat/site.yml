@@ -7,7 +7,7 @@
   become_method: sudo
   vars:
     http_port: 8080
-    httpd_port: 8443
+    https_port: 8443
     admin_username: tomcat
     admin_password: tomcat
 
